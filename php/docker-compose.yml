@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  webapp:
+    image: php:7.4-apache
+    ports:
+      - "8001:80"
+    volumes:
+      - .:/var/www/html/

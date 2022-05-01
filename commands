@@ -1,0 +1,7 @@
+docker run hello-world
+docker pull busybox
+docker run busybox
+docker run busybox echo "hello from busybox"
+docker ps -a
+docker login
+docker push yourusername/imagename
